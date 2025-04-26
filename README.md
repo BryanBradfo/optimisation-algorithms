@@ -1,5 +1,7 @@
 # Optimization Algorithms for Machine Learning  
 
+![Optimization wallpaper](optimization.gif)
+
 This repository is a comprehensive collection of notebooks and materials exploring **optimization algorithms for machine learning**, covering both theoretical foundations and practical applications. It is structured as a course and lab-based journey, going from core optimization concepts to advanced algorithms tailored to modern machine learning problems.
 
 ---
