@@ -9,15 +9,70 @@ This repository is a comprehensive collection of notebooks and materials explori
 ## 🗂 Directory Structure
 
 ```
-optimisation-algorithms/
-├── cours/
-│   └── materials_cd/                         # Original course material on coordinate descent
-├── cours_coordinate_descent/
-│   └── materials_cd/                         # Clean version of coordinate descent course content
-├── material_quasi_newton/
-│   └── material_quasi_newton/                # Code utilities for quasi-Newton methods (e.g., L-BFGS)
-│       ├── optim_utils.py
-├── project/                                  # Notebooks and experiments applying optimization methods
+├── cours                                     # Original course material on coordinate descent
+│   ├── 01_intro_optim_ml.pdf
+│   ├── 02_grad_desc.pdf
+│   ├── 03_MLinpractice.pdf
+│   ├── 04_nonsmooth.pdf
+│   ├── 05_stochastic.pdf
+│   ├── 06_constrained_std.pdf
+│   ├── 3_prox.pdf
+│   ├── ex_intro_gd.pdf
+│   ├── gradient_descent.ipynb
+│   └── materials_cd
+│       └── materials_cd                      # Clean version of coordinate descent course content
+│           ├── coordinate_descent.ipynb
+│           ├── Lab_cd.ipynb
+│           ├── notes_cd.pdf
+│           └── slides_cd.pdf
+├── cours_coordinate_descent                     
+│   └── materials_cd
+│       ├── coordinate_descent.ipynb
+│       ├── Lab_cd.ipynb
+│       ├── notes_cd.pdf
+│       └── slides_cd.pdf
+├── fw_non_cvx_autodiff
+│   ├── lecture_fw_non_cvx_autodiff
+│   │   ├── 07-line_search_interactive.ipynb
+│   │   ├── 08-Line_search_method.ipynb
+│   │   ├── adaptive_lasso.ipynb
+│   │   ├── automatic_differentiation.ipynb
+│   │   ├── coordinate_descent_non_cvx.ipynb
+│   │   ├── frank_wolfe.ipynb
+│   │   ├── movies
+│   │   │   ├── 0_l22_film.mp4
+│   │   │   ├── 1_l1_film.mp4
+│   │   │   ├── 2_enet_film.mp4
+│   │   │   ├── 3_l0_film.mp4
+│   │   │   ├── 4_sqrt_film.mp4
+│   │   │   ├── 5_log_film.mp4
+│   │   │   ├── 6_mcp_film.mp4
+│   │   │   └── 7_scad_film.mp4
+│   │   ├── movies_prox.py
+│   │   ├── optim_utils.py
+│   │   ├── prox_and_pen_plotting.py
+│   │   ├── prox_collection.py
+│   │   ├── slides_autodiff.pdf
+│   │   ├── slides_fw.pdf
+│   │   ├── slides_linear_search.pdf
+│   │   └── slides_non_cvx.pdf
+├── gradient_descent.ipynb
+├── lab1_chen_bryan_and_devilder_alice.ipynb
+├── lab2_chen_bryan_and_devilder_alice.ipynb
+├── lab3_chen_bryan_and_devilder_alice.ipynb
+├── material_quasi_newton                       # Code utilities for quasi-Newton methods (e.g., L-BFGS)
+│   └── material_quasi_newton
+│       ├── Newton_1d.ipynb
+│       ├── Newton_variable_metric.ipynb
+│       ├── notes_quasi_newton.pdf
+│       ├── optim_utils.py
+│       ├── slides_quasi_newton.pdf
+│       └── tp_newton_chen_bryan_and_devilder_alice.ipynb
+├── optimization.gif
+├── project                                     # Notebooks and experiments applying optimization methods
+│   ├── NOxEmissions.csv
+│   └── project_chen_bryan_and_devilder_alice.ipynb
+
 ```
 
 ---
