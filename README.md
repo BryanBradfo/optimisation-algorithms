@@ -89,45 +89,39 @@ The notebooks and materials are structured around the following themes:
 ### 🔹 2. Smooth Optimization
 
 - **2.1** Gradient Descent & Convergence  
-- **3.1** Quadratic Problems and Conjugate Gradient  
-- **3.2** Line Search Techniques
+- **2.2** Quadratic Problems and Conjugate Gradient  
+- **2.3** Line Search Techniques
 
 ### 🔹 3. Non-smooth Optimization
 
-- **4.1** Proximal Operators & Algorithms  
-- **4.2** Lab: Lasso & Group Lasso
+- **3.1** Proximal Operators & Algorithms  
+- **3.2** Lab: Lasso & Group Lasso
 
 ### 🔹 4. Stochastic Optimization
 
-- **5.1** SGD and Variance Reduction  
-- **5.2** Lab: SGD for Logistic Regression
+- **4.1** SGD and Variance Reduction  
+- **4.2** Lab: SGD for Logistic Regression
 
 ### 🔹 5. Constrained Optimization
 
-- **6.1** Linear Programming (LP), Quadratic Programming (QP), and Mixed Integer Programming
-
----
+- **5.1** Linear Programming (LP), Quadratic Programming (QP), and Mixed Integer Programming
 
 ### 🔹 6. Coordinate Descent (CD)
 
 Located in `cours_coordinate_descent/materials_cd/`
 
-- **1** Exact Coordinate Descent  
-- **2** Coordinate Gradient Descent  
-- **3** Proximal Coordinate Descent  
-- **4** Applications to ML Estimators (e.g., Lasso, SVM)
-
----
+- **6.1** Exact Coordinate Descent  
+- **6.2** Coordinate Gradient Descent  
+- **6.3** Proximal Coordinate Descent  
+- **6.4** Applications to ML Estimators (e.g., Lasso, SVM)
 
 ### 🔹 7. Newton & Quasi-Newton Methods
 
 Located in `material_quasi_newton/`
 
-- **8.1** Second-order optimization: Newton’s method  
+- **7.1** Second-order optimization: Newton’s method  
 - **L-BFGS**: Quasi-Newton method for large-scale optimization  
 - Applications: ℓ2 Logistic Regression, Conditional Random Fields
-
----
 
 ### 🔹 8. Beyond Convex Optimization
 
